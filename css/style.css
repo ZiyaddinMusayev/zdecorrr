@@ -176,6 +176,7 @@ ul img{
 #kampaniya img{
   object-fit: cover;
   height: 450px;
+  width: 300px;
 }
 
 
@@ -196,8 +197,8 @@ ul img{
 }
 
 .gallery img{
-  width: 360px;
-  height: 480px;
+  width: 260px;
+  height: 380px;
   margin: 10px;
   object-fit: cover;
   border-radius: 40px;
