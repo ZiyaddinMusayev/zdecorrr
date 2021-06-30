@@ -69,9 +69,6 @@ html{
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 30%;
-  right: 30%;
-  width: 500px;
 }
 
 .heading{
@@ -119,4 +116,13 @@ html{
 
 svg{
   color: white;
+}
+
+
+@media all and (min-width: 250px) and (max-width: 300px) {
+
+  .main{
+      left: 5%;
+  }
+
 }
