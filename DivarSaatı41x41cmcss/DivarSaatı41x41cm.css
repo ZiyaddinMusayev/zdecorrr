@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center/cover;
+  height: 750px;
+  color: black;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li{
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+.product-small-img img{
+  height: 87px;
+  width: 87px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+  opacity: .6;
+  border: 1px solid black;
+  object-fit: cover;
+}
+
+h1{
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.product-small-img img:hover{
+  opacity: 1;
+}
+
+.product-small-img{
+  float: left;
+}
+
+.product{
+  top: 65%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-left: 15px;
+}
+
+.text h1{
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.text h2{
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 7px;
+}
+
+.text h3{
+  margin-left: 583px;
+}
+
+.img-container img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.img-container{
+  float: right;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#əlaqə{
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#əlaqə ul{
+  display: flex;
+  margin-left: 565px;
+}
+
+#əlaqə ul li{
+  position: relative;
+  display: block;
+  color: black;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: white;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+#əlaqə ul li:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: #d35400;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+
+#əlaqə a{
+  text-decoration: none;
+  color: white;
+}
